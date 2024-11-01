@@ -1,0 +1,41 @@
+.link{
+   display:inline;
+   background-color: black;
+   color: aliceblue;
+   padding:0.1rem ;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+
+}
+.menu{
+    display: inline-block;
+    padding: 0.312rem;
+    border-color: black;
+    border-width: 0.125rem;
+    border-style: solid;
+    
+    
+}
+
+.box{
+    width:18.75rem;
+    height: 25rem;
+    margin: 1%;
+    padding: 1%;
+    border-color: black;
+    border-width: 0.125rem;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.195);
+    display: inline-block;
+}
+img{
+    width: 18rem;
+    height:19rem;
+    border-color: rgb(0, 123, 255);
+    border-width: 0.125rem;
+    border-style: solid;
+
+}
+.box:hover{
+    background-color: blueviolet;
+}

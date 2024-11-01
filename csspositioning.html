@@ -1,0 +1,42 @@
+<style>
+.one{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+    position:relative ;
+    
+}
+.two{
+    background-color: rgb(33, 33, 36);
+    top:100px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    position:absolute ;
+    z-index: 2;
+    
+    
+}
+.three{
+    top: 200px;
+    background-color: rgb(0, 255, 72);
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    display: block;
+    
+}
+.one:hover{
+    width: 200px;
+    height: 200px;
+    top: 20px;
+    left:20px;
+    z-index: 1;
+   
+}
+</style>
+
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
